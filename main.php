@@ -59,9 +59,9 @@
         <div id="content">
             <?php
                 // DB接続処理
-                $dsn = "mysql:dbname=tb210281db; host=localhost";
-                $user = "tb-210281";
-                $password = "A5dYhGU79U";
+                $dsn = "mysql:****; host=localhost";
+                $user = "****";
+                $password = "****";
                 $pdo = new PDO($dsn,$user,$password,array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 
                 $sql = 'select file_name from data;';
